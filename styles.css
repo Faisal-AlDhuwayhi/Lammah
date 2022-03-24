@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Somar';
+    src: url('./Somar/SomarSans-Regular.woff') format('woff'), url('./Somar/SomarSans-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Somar';
+    src: url('./Somar/SomarSans-Bold.woff') format('woff'), url('./Somar/SomarSans-Bold.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Somar';
+    src: url('./Somar/SomarSans-SemiBold.woff') format('woff'), url('./Somar/SomarSans-SemiBold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Somar';
+    src: url('./Somar/SomarSans-Black.woff2') format('woff2'), url('./Somar/SomarSans-Black.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.row>* {
+    --bs-gutter-x: 0;
+}
+
+body {
+    font-family: 'Somar';
+}
+
+.nav {
+    max-width: 900px;
+}
+
+.nav-item>* {
+    color: black!important;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+header {
+    background-color: #E5F2FF;
+    position: relative;
+}
+
+.white-bg {
+    position: absolute;
+    background-color: white;
+    width: 38%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.color-blue-chill {
+    color: #0C748C!important;
+}
+
+.color-egg-blue {
+    color: #04C3E3!important;
+}
+
+.color-dark {
+    color: #1C242C!important;
+}
+
+#main {
+    background-color: #e5f2ff94;
+}
+
+#contact {
+    min-height: 462px;
+}
+
+.main-card {
+    background-color: white;
+    /* max-width: 350px; */
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    width: 586px;
+    min-height: 167px;
+    /* border-top-right-radius: 0;
+    border-bottom-right-radius: 0; */
+    /* min-height: 140px;
+    max-height: 150px; */
+}
+
+.main-card2 {
+    background-color: white;
+    /* max-width: 350px; */
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    max-width: 586px;
+    /* border-top-right-radius: 0;
+    border-bottom-right-radius: 0; */
+    min-height: 167px;
+    /* max-height: 150px; */
+}
+
+.bb {
+    background: rgb(218, 238, 254);
+    background: linear-gradient(84deg, rgba(218, 238, 254, 1) 0%, rgba(218, 238, 254, 1) 100%);
+}
+
+.number-card {
+    display: flex;
+    flex-direction: column;
+    background: rgb(218, 238, 254);
+    background: linear-gradient(84deg, rgba(218, 238, 254, 1) 0%, rgba(218, 238, 254, 1) 100%);
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    right: -70px;
+    top: 0px;
+}
+
+.card-text {
+    z-index: 15;
+    width: 100%;
+}
+
+.number-on-text {
+    position: absolute;
+    font-size: 80px;
+    z-index: 0;
+    /* top: 0px; */
+    color: #0c748c6b !important;
+}
+
+.intrested-card {
+    background-color: #E5F2FF;
+}
+
+.intro-lamah {
+    text-align: center;
+}
+
+.gx-4 {
+    --bs-gutter-x: 0;
+}
+
+.gx-5 {
+    --bs-gutter-x: 0;
+}
+
+.lammah-feature {
+    max-width: 122.5px!important;
+}
+
+.lammah-customer-feature {
+    max-width: 115px!important;
+}
+
+.lammah-ai-feature {
+    max-width: 143px!important;
+}
+
+.video {
+    width: 99%;
+}
+
+.w-md-100-button {
+    width: 20%;
+}
+
+@media (min-width:1200px) and (max-width:1398px) {
+    .know-customer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .white-bg {
+        display: none;
+    }
+    header {
+        background-color: white;
+    }
+    .intro-lamah {
+        text-align: center;
+    }
+    .main-card {
+        width: 70%;
+    }
+    .main-card2 {
+        width: 70%;
+        max-width: none;
+    }
+    .lammah-feature {
+        max-width: 143px!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .w-md-100 {
+        width: 50%!important;
+    }
+    .w-md-100-button {
+        width: 10%!important;
+    }
+}
+
+@media (max-width: 720px) {
+    .w-md-100 {
+        width: 100%!important;
+    }
+    .w-md-100-button {
+        width: 50%!important;
+    }
+    .lammah-customer-feature {
+        max-width: 135px!important;
+    }
+    .video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video {
+        width: 100%;
+    }
+}
